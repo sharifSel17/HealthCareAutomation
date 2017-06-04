@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="CareFirst" parallel="tests">
+<suite name="Health First" parallel="tests">
 
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
@@ -9,11 +9,11 @@
     <parameter name="os_version" value="10"/>
     <parameter name="browserName" value="firefox"/>
     <parameter name="browserVersion" value="53"/>
-    <parameter name="url" value="https://www.carefirst.com/"/>
+    <parameter name="url" value="https://healthfirst.org/"/>
 
-    <test name = "Street Easy">
+    <test name = "Health First">
         <classes>
-            <!--<class name=""/>-->
+            <class name="testhomepage.TestHomeMenu"/>
         </classes>
     </test>
 </suite>
