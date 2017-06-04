@@ -86,7 +86,7 @@ public class CommonAPI {
         if (result.getStatus() == ITestResult.FAILURE) {
             captureScreenshot(driver, result.getName());
         }
-        driver.quit();
+       // driver.quit();
     }
 
     @AfterSuite

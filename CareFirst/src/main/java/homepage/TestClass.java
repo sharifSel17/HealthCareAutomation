@@ -15,11 +15,11 @@ public class TestClass{
         System.setProperty("webdriver.gecko.driver", "C:\\Users\\Sharif\\development\\HealthCareAutomation\\Generic\\driver\\geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.navigate().to("https://healthfirst.org/");
+        driver.navigate().to("http://www.ebay.com/");
         driver.manage().window().maximize();
 
         //Thread.sleep(3000);
-        driver.findElement(By.cssSelector("#menu-item-424 > a")).click();
+        driver.findElement(By.cssSelector("#gh-ac")).sendKeys("hello ebay");
 
     }
 }

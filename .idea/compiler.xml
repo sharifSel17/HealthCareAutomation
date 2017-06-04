@@ -7,13 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CareFirst" />
+        <module name="eBay" />
         <module name="Generic" />
+        <module name="IndeedJob" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CareFirst" target="1.8" />
+      <module name="eBay" target="1.8" />
       <module name="Generic" target="1.8" />
       <module name="HealthCareAutomation" target="1.8" />
+      <module name="IndeedJob" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
