@@ -4,24 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" line="39" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80d6f6b9-df14-4135-b8aa-c7a2d7be3698" name="Default" comment="versionhjh">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/driver/IEDriverServer.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/driver/chromedriver.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/driver/geckodriver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/driver/geckodriver.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CareFirst/src/main/java/homepage/TestClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CareFirst/src/test/java/testhomepage/TestHomeMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CareFirst/target/classes/homepage/HomeMenu.class" afterPath="$PROJECT_DIR$/CareFirst/target/classes/homepage/HomeMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" />
+    <list default="true" id="80d6f6b9-df14-4135-b8aa-c7a2d7be3698" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CareFirst/pom.xml" afterPath="$PROJECT_DIR$/CareFirst/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CareFirst/src/test/resources/CareFirstRunner.xml" afterPath="$PROJECT_DIR$/CareFirst/src/test/resources/CareFirstRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CareFirst/target/test-classes/CareFirstRunner.xml" afterPath="$PROJECT_DIR$/CareFirst/target/test-classes/CareFirstRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,9 +36,11 @@
       <file leaf-file-name="HomeMenu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CareFirst/src/main/java/homepage/HomeMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="441">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -824,7 +810,7 @@
       <workItem from="1496370880482" duration="15260000" />
       <workItem from="1496455164875" duration="11269000" />
       <workItem from="1496505900389" duration="720000" />
-      <workItem from="1496541044432" duration="623000" />
+      <workItem from="1496541044432" duration="1033000" />
     </task>
     <task id="LOCAL-00001" summary="version 2">
       <created>1496541563978</created>
@@ -833,7 +819,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496541563978</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1496541707476</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1496541707476</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -869,10 +862,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36277000" />
+    <option name="totallyTimeSpent" value="36687000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -914,7 +907,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1000,7 +994,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1059,7 +1055,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1108,7 +1106,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1157,7 +1157,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1319,9 +1321,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CareFirst/src/main/java/homepage/HomeMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="441">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
