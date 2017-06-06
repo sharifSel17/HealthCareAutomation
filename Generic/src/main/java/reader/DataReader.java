@@ -1,28 +1,27 @@
 package reader;
 
-import org.apache.poi.ss.usermodel.Cell;
+/**
+ * Created by PIIT_NYA on 5/14/2017.
+ */
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
-
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-/**
- * Created by Sharif on 6/3/2017.
- */
 public class DataReader {
     HSSFWorkbook wb = null;
     HSSFSheet sheet = null;
     Cell cell = null;
     FileOutputStream fio = null;
     int numberOfRows, numberOfCol, rowNum;
-    public String[][] fileReader1(String path)throws IOException {
+    public String[][] fileReader1(String path)throws IOException{
         String [] [] data = {};
         File file = new File(path);
         FileInputStream fis = new FileInputStream(file);

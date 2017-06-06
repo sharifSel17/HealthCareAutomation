@@ -7,16 +7,18 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import reporting.TestLogger;
 
 import java.io.IOException;
 
 /**
- * Created by Sharif on 6/4/2017.
+ * Created by PIIT_NYA on 5/14/2017.
  */
-public class SearchItem extends CommonAPI {
+public class SearchPage extends CommonAPI {
     @FindBy(how = How.CSS, using = "#gh-ac")
     public static WebElement searchInput;
+
 
     public void searchFor(String item) {
         TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName() + ": " + item));
@@ -24,16 +26,18 @@ public class SearchItem extends CommonAPI {
     }
 
     public void clearSearchInput() {
-        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         searchInput.clear();
     }
 
     public void getDataFromExcelFileAndSearch() throws IOException, InterruptedException {
-        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         //Create instance of Excel file reader class
-        SearchDataItem itemsToBeSearched = new SearchDataItem();
+        ItemsToBeSearched itemsToBeSearched = new ItemsToBeSearched();
         //Page Factory class init
-        SearchItem search = PageFactory.initElements(driver, SearchItem.class);
+        SearchPage search = PageFactory.initElements(driver, SearchPage.class);
         //Read data from Excel File.
         String[] value = itemsToBeSearched.getDataFromExcelFile();
         //Running for each loop
@@ -42,7 +46,5 @@ public class SearchItem extends CommonAPI {
             sleepFor(2);
             search.clearSearchInput();
         }
-
     }
 }
-

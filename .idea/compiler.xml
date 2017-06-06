@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Amazon" />
         <module name="CareFirst" />
         <module name="eBay" />
         <module name="Generic" />
@@ -13,6 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Amazon" target="1.8" />
       <module name="CareFirst" target="1.8" />
       <module name="eBay" target="1.8" />
       <module name="Generic" target="1.8" />

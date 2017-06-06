@@ -19,7 +19,6 @@ public class TestClass{
         driver.manage().window().maximize();
 
         //Thread.sleep(3000);
-        driver.findElement(By.cssSelector("#gh-ac")).sendKeys("hello ebay");
-
+        driver.findElement(By.cssSelector("#gh-ac")).sendKeys("laptop");
     }
 }

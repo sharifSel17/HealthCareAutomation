@@ -1,5 +1,6 @@
 package reporting;
 
+import base.CommonAPI;
 import com.relevantcodes.extentreports.LogStatus;
 
 import org.openqa.selenium.WebDriver;
@@ -10,7 +11,7 @@ import org.apache.commons.lang.StringUtils;
  * Created by mrahman on 05/13/17.
  */
 
-public class TestLogger {
+public class TestLogger{
 
     public static void log(final String message) {
         Reporter.log(message, true);

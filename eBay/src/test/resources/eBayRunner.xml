@@ -8,12 +8,12 @@
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="10"/>
     <parameter name="browserName" value="firefox"/>
-    <parameter name="browserVersion" value="53"/>
+    <parameter name="browserVersion" value="53.0.3"/>
     <parameter name="url" value="http://www.ebay.com/"/>
 
     <test name = "eBay">
         <classes>
-            <class name="testSearchItem.TestSearchDataFromExcel"/>
+            <class name="testSearchItem.SearchItems"/>
         </classes>
     </test>
 </suite>
