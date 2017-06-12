@@ -26,14 +26,12 @@ public class SearchPage extends CommonAPI {
     }
 
     public void clearSearchInput() {
-        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         searchInput.clear();
     }
 
     public void getDataFromExcelFileAndSearch() throws IOException, InterruptedException {
-        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName() + ": " + converToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         //Create instance of Excel file reader class
         ItemsToBeSearched itemsToBeSearched = new ItemsToBeSearched();
         //Page Factory class init
